@@ -22,7 +22,7 @@ The presented project is a simple App, able to receive a list of products with f
 - Xcode 12.0.1
 - CocoaPods
 
-iOS 13+ was choosen as it is the most recent version adopted by the most users.
+iOS 13+ was chosen as it is the most recent version adopted by the most users.
 
 #### CocoaPods Frameworks
 This project includes two external frameworks:
