@@ -18,10 +18,11 @@ This repository contains my coding challenge for Nate.tech
 The presented project is a simple App, able to receive a list of products with fixed properties, display them individually in an UITableView, and allowing the user to tap on the showed cells to display details on the choosen product.
 
 #### Technical Informations
-- iOS Version 12+
+- iOS Version 13+
 - Xcode 12.0.1
 - CocoaPods
 
+iOS 13+ was choosen as it is the most recent version adopted by the most users.
 
 #### CocoaPods Frameworks
 This project includes two external frameworks:
