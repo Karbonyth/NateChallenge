@@ -1,0 +1,23 @@
+{
+  "posts": [
+    {
+      "id": "d42c4e87-5789-4840-9978-65e0c333ff8a",
+      "createdAt": "2020-08-14T20:17:23.123Z",
+      "updatedAt": "2020-08-14T20:17:23.123Z",
+      "title": "test item 1",
+      "images": [
+        "https://fanatics.frgimages.com/FFImage/thumb.aspx?i=/productimages/_3802000/ff_3802240-4b85edcce601a42d6641_full.jpg"
+      ],
+      "url": "https://www.fanatics.com/mlb/washington-nationals/juan-soto-washington-nationals-nike-youth-2020-gold-program-replica-player-jersey-white/gold/o-7887+t-58234569+p-8153449092+z-8-1618303961?_ref=p-CLP:m-GRID:i-r4c0:po-12",
+      "merchant": "Fanatics"
+    },
+    {
+      "id": "75f5450a-9130-4d91-999e-ccb17cbe3a9b",
+      "createdAt": "2020-08-14T20:17:23.118Z",
+      "updatedAt": "2020-08-14T20:17:23.118Z",
+      "title": "test item 2",
+      "images": [],
+      "url": "https://www.abercrombie.com/shop/us/p/ultra-high-rise-ankle-straight-jeans-41996353?categoryId=6234532&seq=01&faceout=prod1",
+      "merchant": "Abercrombie & Fitch"
+    }
+}

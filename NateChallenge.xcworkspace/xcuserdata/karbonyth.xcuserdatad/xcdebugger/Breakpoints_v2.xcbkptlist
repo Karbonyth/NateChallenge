@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "55D1D4F5-66E2-4286-BA9F-8D11363ACE13"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2754A334-5759-469D-BD4E-A40B731B1694"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NateChallenge/Network/API.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "APIRoutes"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "2754A334-5759-469D-BD4E-A40B731B1694 - 5661d2d92f8d944a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NateChallenge.API.(APIRoutes in _3909FEAB2257624496EF4CFE2EA8FB00).init(rawValue: Swift.String) -&gt; Swift.Optional&lt;NateChallenge.API.(APIRoutes in _3909FEAB2257624496EF4CFE2EA8FB00)&gt;"
+                  moduleName = "NateChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karbonyth/Documents/Nate%20Test/NateChallenge/NateChallenge/Network/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "86">
+               </Location>
+               <Location
+                  uuid = "2754A334-5759-469D-BD4E-A40B731B1694 - d6cf717f85dd6459"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NateChallenge.API.(APIRoutes in _3909FEAB2257624496EF4CFE2EA8FB00).rawValue.getter : Swift.String"
+                  moduleName = "NateChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/karbonyth/Documents/Nate%20Test/NateChallenge/NateChallenge/Network/API.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "457C9B97-5516-4D0C-9073-AD93EF6177BA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NateChallenge/Models/ProductListDataSource.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "requestProductList(skip:take:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

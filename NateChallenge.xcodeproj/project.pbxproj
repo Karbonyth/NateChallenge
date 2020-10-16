@@ -1,0 +1,887 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		315295A6B88675D3E23F6AD8 /* Pods_NateChallenge_NateChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEB52EADF07E96C4FCC4D8C /* Pods_NateChallenge_NateChallengeUITests.framework */; };
+		AD3C5EB12531B84700E06C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5EB02531B84700E06C76 /* AppDelegate.swift */; };
+		AD3C5EBA2531B84700E06C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3C5EB92531B84700E06C76 /* Assets.xcassets */; };
+		AD3C5EBD2531B84700E06C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3C5EBB2531B84700E06C76 /* LaunchScreen.storyboard */; };
+		AD3C5EC82531B84700E06C76 /* NateChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5EC72531B84700E06C76 /* NateChallengeTests.swift */; };
+		AD3C5EEC2531B8B000E06C76 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5EEB2531B8B000E06C76 /* Coordinator.swift */; };
+		AD3C5EF12531B8C900E06C76 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5EF02531B8C900E06C76 /* MainCoordinator.swift */; };
+		AD3C5EF92531B93400E06C76 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5EF82531B93400E06C76 /* HomeScreenViewController.swift */; };
+		AD3C5F062531BD5E00E06C76 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F052531BD5E00E06C76 /* Product.swift */; };
+		AD3C5F0B2531BFD900E06C76 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F0A2531BFD900E06C76 /* API.swift */; };
+		AD3C5F102531C83D00E06C76 /* PageOffsetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F0F2531C83D00E06C76 /* PageOffsetItem.swift */; };
+		AD3C5F322531D15600E06C76 /* ProductListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F312531D15600E06C76 /* ProductListDataSource.swift */; };
+		AD3C5F382531D2CE00E06C76 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F372531D2CE00E06C76 /* ProductCell.swift */; };
+		AD3C5F412531D32800E06C76 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F402531D32800E06C76 /* UIView+Extensions.swift */; };
+		AD3C5F492531D5ED00E06C76 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F482531D5ED00E06C76 /* APIRequest.swift */; };
+		AD3C5F4E2533039200E06C76 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F4D2533039200E06C76 /* ErrorView.swift */; };
+		AD3C5F5325330B1100E06C76 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F5225330B1100E06C76 /* UIImageView+Extensions.swift */; };
+		AD3C5F5D253468F800E06C76 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F5C253468F800E06C76 /* ImageCache.swift */; };
+		AD3C5F622534753800E06C76 /* ProductDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F612534753800E06C76 /* ProductDetailsViewController.swift */; };
+		AD3C5F6725349FFD00E06C76 /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F6625349FFD00E06C76 /* ProductDetailsView.swift */; };
+		AD3C5F782535FF5400E06C76 /* ProductTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F772535FF5400E06C76 /* ProductTests.swift */; };
+		AD3C5F7D25360B8600E06C76 /* mock.json in Resources */ = {isa = PBXBuildFile; fileRef = AD3C5F7C25360B8600E06C76 /* mock.json */; };
+		AD3C5F9C25385FA200E06C76 /* ImageCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5F9B25385FA200E06C76 /* ImageCacheTests.swift */; };
+		AD3C5FA425386E6400E06C76 /* apimock.json in Resources */ = {isa = PBXBuildFile; fileRef = AD3C5FA325386E6400E06C76 /* apimock.json */; };
+		EE562BE37A3FBD90E2BA562B /* Pods_NateChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B1BA22DD25EB30860026829 /* Pods_NateChallenge.framework */; };
+		FA2462A28135D5156F67BAE6 /* Pods_NateChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E38FF83AB4462B85819BBD23 /* Pods_NateChallengeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD3C5EC42531B84700E06C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD3C5EA52531B84700E06C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3C5EAC2531B84700E06C76;
+			remoteInfo = NateChallenge;
+		};
+		AD3C5ECF2531B84800E06C76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD3C5EA52531B84700E06C76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD3C5EAC2531B84700E06C76;
+			remoteInfo = NateChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40C7B050DD037FBD6CBBF52C /* Pods-NateChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NateChallenge.release.xcconfig"; path = "Target Support Files/Pods-NateChallenge/Pods-NateChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		6B1BA22DD25EB30860026829 /* Pods_NateChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NateChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3C5EAD2531B84700E06C76 /* NateChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NateChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3C5EB02531B84700E06C76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD3C5EB92531B84700E06C76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD3C5EBC2531B84700E06C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD3C5EBE2531B84700E06C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3C5EC32531B84700E06C76 /* NateChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NateChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3C5EC72531B84700E06C76 /* NateChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NateChallengeTests.swift; sourceTree = "<group>"; };
+		AD3C5EC92531B84800E06C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3C5ECE2531B84800E06C76 /* NateChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NateChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3C5EEB2531B8B000E06C76 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AD3C5EF02531B8C900E06C76 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		AD3C5EF82531B93400E06C76 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		AD3C5F052531BD5E00E06C76 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		AD3C5F0A2531BFD900E06C76 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		AD3C5F0F2531C83D00E06C76 /* PageOffsetItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOffsetItem.swift; sourceTree = "<group>"; };
+		AD3C5F312531D15600E06C76 /* ProductListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListDataSource.swift; sourceTree = "<group>"; };
+		AD3C5F372531D2CE00E06C76 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		AD3C5F402531D32800E06C76 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		AD3C5F482531D5ED00E06C76 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		AD3C5F4D2533039200E06C76 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		AD3C5F5225330B1100E06C76 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		AD3C5F5C253468F800E06C76 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		AD3C5F612534753800E06C76 /* ProductDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsViewController.swift; sourceTree = "<group>"; };
+		AD3C5F6625349FFD00E06C76 /* ProductDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsView.swift; sourceTree = "<group>"; };
+		AD3C5F772535FF5400E06C76 /* ProductTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTests.swift; sourceTree = "<group>"; };
+		AD3C5F7C25360B8600E06C76 /* mock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = mock.json; sourceTree = "<group>"; };
+		AD3C5F9B25385FA200E06C76 /* ImageCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheTests.swift; sourceTree = "<group>"; };
+		AD3C5FA325386E6400E06C76 /* apimock.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = apimock.json; sourceTree = "<group>"; };
+		B98CDC8ADF824457EDEF4C60 /* Pods-NateChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NateChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-NateChallengeTests/Pods-NateChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6AF608505EF09AC40E06F46 /* Pods-NateChallenge-NateChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NateChallenge-NateChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-NateChallenge-NateChallengeUITests/Pods-NateChallenge-NateChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDEB52EADF07E96C4FCC4D8C /* Pods_NateChallenge_NateChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NateChallenge_NateChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CD4671982CA5E26BE71D8A /* Pods-NateChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NateChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-NateChallengeTests/Pods-NateChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E38FF83AB4462B85819BBD23 /* Pods_NateChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NateChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB34C990C75254566674A068 /* Pods-NateChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NateChallenge.debug.xcconfig"; path = "Target Support Files/Pods-NateChallenge/Pods-NateChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		EF837728EE57214B69E1537F /* Pods-NateChallenge-NateChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NateChallenge-NateChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-NateChallenge-NateChallengeUITests/Pods-NateChallenge-NateChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD3C5EAA2531B84700E06C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE562BE37A3FBD90E2BA562B /* Pods_NateChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3C5EC02531B84700E06C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2462A28135D5156F67BAE6 /* Pods_NateChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3C5ECB2531B84800E06C76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315295A6B88675D3E23F6AD8 /* Pods_NateChallenge_NateChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CDE0DEF473F8EC6DBA3A3CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB34C990C75254566674A068 /* Pods-NateChallenge.debug.xcconfig */,
+				40C7B050DD037FBD6CBBF52C /* Pods-NateChallenge.release.xcconfig */,
+				C6AF608505EF09AC40E06F46 /* Pods-NateChallenge-NateChallengeUITests.debug.xcconfig */,
+				EF837728EE57214B69E1537F /* Pods-NateChallenge-NateChallengeUITests.release.xcconfig */,
+				B98CDC8ADF824457EDEF4C60 /* Pods-NateChallengeTests.debug.xcconfig */,
+				D4CD4671982CA5E26BE71D8A /* Pods-NateChallengeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		658F15F264283CFFBB1FC323 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6B1BA22DD25EB30860026829 /* Pods_NateChallenge.framework */,
+				CDEB52EADF07E96C4FCC4D8C /* Pods_NateChallenge_NateChallengeUITests.framework */,
+				E38FF83AB4462B85819BBD23 /* Pods_NateChallengeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD3C5EA42531B84700E06C76 = {
+			isa = PBXGroup;
+			children = (
+				AD3C5EAF2531B84700E06C76 /* NateChallenge */,
+				AD3C5EC62531B84700E06C76 /* NateChallengeTests */,
+				AD3C5EAE2531B84700E06C76 /* Products */,
+				5CDE0DEF473F8EC6DBA3A3CE /* Pods */,
+				658F15F264283CFFBB1FC323 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD3C5EAE2531B84700E06C76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5EAD2531B84700E06C76 /* NateChallenge.app */,
+				AD3C5EC32531B84700E06C76 /* NateChallengeTests.xctest */,
+				AD3C5ECE2531B84800E06C76 /* NateChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD3C5EAF2531B84700E06C76 /* NateChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5F3F2531D31800E06C76 /* Extensions */,
+				AD3C5EF62531B90700E06C76 /* Components */,
+				AD3C5EF52531B90200E06C76 /* ViewControllers */,
+				AD3C5F012531BAA300E06C76 /* Models */,
+				AD3C5EEA2531B8A400E06C76 /* Coordinators */,
+				AD3C5EE92531B89B00E06C76 /* Protocols */,
+				AD3C5F002531BA9300E06C76 /* Network */,
+				AD3C5EB02531B84700E06C76 /* AppDelegate.swift */,
+				AD3C5EB92531B84700E06C76 /* Assets.xcassets */,
+				AD3C5EBB2531B84700E06C76 /* LaunchScreen.storyboard */,
+				AD3C5EBE2531B84700E06C76 /* Info.plist */,
+			);
+			path = NateChallenge;
+			sourceTree = "<group>";
+		};
+		AD3C5EC62531B84700E06C76 /* NateChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5EC72531B84700E06C76 /* NateChallengeTests.swift */,
+				AD3C5F772535FF5400E06C76 /* ProductTests.swift */,
+				AD3C5F9B25385FA200E06C76 /* ImageCacheTests.swift */,
+				AD3C5EC92531B84800E06C76 /* Info.plist */,
+				AD3C5F7C25360B8600E06C76 /* mock.json */,
+			);
+			path = NateChallengeTests;
+			sourceTree = "<group>";
+		};
+		AD3C5EE92531B89B00E06C76 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5EEB2531B8B000E06C76 /* Coordinator.swift */,
+				AD3C5F482531D5ED00E06C76 /* APIRequest.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		AD3C5EEA2531B8A400E06C76 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5EF02531B8C900E06C76 /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		AD3C5EF52531B90200E06C76 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5EF82531B93400E06C76 /* HomeScreenViewController.swift */,
+				AD3C5F612534753800E06C76 /* ProductDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AD3C5EF62531B90700E06C76 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5EF72531B90D00E06C76 /* Views */,
+				AD3C5F362531D2B600E06C76 /* Cells */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AD3C5EF72531B90D00E06C76 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5F4D2533039200E06C76 /* ErrorView.swift */,
+				AD3C5F6625349FFD00E06C76 /* ProductDetailsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD3C5F002531BA9300E06C76 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5F0A2531BFD900E06C76 /* API.swift */,
+				AD3C5FA325386E6400E06C76 /* apimock.json */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AD3C5F012531BAA300E06C76 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5F052531BD5E00E06C76 /* Product.swift */,
+				AD3C5F0F2531C83D00E06C76 /* PageOffsetItem.swift */,
+				AD3C5F312531D15600E06C76 /* ProductListDataSource.swift */,
+				AD3C5F5C253468F800E06C76 /* ImageCache.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AD3C5F362531D2B600E06C76 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5F372531D2CE00E06C76 /* ProductCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		AD3C5F3F2531D31800E06C76 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AD3C5F402531D32800E06C76 /* UIView+Extensions.swift */,
+				AD3C5F5225330B1100E06C76 /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD3C5EAC2531B84700E06C76 /* NateChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3C5ED72531B84800E06C76 /* Build configuration list for PBXNativeTarget "NateChallenge" */;
+			buildPhases = (
+				8CAA33177EEA51A8A6B3F70B /* [CP] Check Pods Manifest.lock */,
+				AD3C5EA92531B84700E06C76 /* Sources */,
+				AD3C5EAA2531B84700E06C76 /* Frameworks */,
+				AD3C5EAB2531B84700E06C76 /* Resources */,
+				877EC2F3CDD5C99BECBDDB0F /* [CP] Embed Pods Frameworks */,
+				AD3C5F222531CABF00E06C76 /* SwiftLint */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NateChallenge;
+			productName = NateChallenge;
+			productReference = AD3C5EAD2531B84700E06C76 /* NateChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD3C5EC22531B84700E06C76 /* NateChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3C5EDA2531B84800E06C76 /* Build configuration list for PBXNativeTarget "NateChallengeTests" */;
+			buildPhases = (
+				06036B21198E43C84A382174 /* [CP] Check Pods Manifest.lock */,
+				AD3C5EBF2531B84700E06C76 /* Sources */,
+				AD3C5EC02531B84700E06C76 /* Frameworks */,
+				AD3C5EC12531B84700E06C76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3C5EC52531B84700E06C76 /* PBXTargetDependency */,
+			);
+			name = NateChallengeTests;
+			productName = NateChallengeTests;
+			productReference = AD3C5EC32531B84700E06C76 /* NateChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD3C5ECD2531B84800E06C76 /* NateChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3C5EDD2531B84800E06C76 /* Build configuration list for PBXNativeTarget "NateChallengeUITests" */;
+			buildPhases = (
+				6CF735755F7C68A1B2D39F7B /* [CP] Check Pods Manifest.lock */,
+				AD3C5ECA2531B84800E06C76 /* Sources */,
+				AD3C5ECB2531B84800E06C76 /* Frameworks */,
+				AD3C5ECC2531B84800E06C76 /* Resources */,
+				7A103D4878F0ED84CC67F1BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD3C5ED02531B84800E06C76 /* PBXTargetDependency */,
+			);
+			name = NateChallengeUITests;
+			productName = NateChallengeUITests;
+			productReference = AD3C5ECE2531B84800E06C76 /* NateChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD3C5EA52531B84700E06C76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AD3C5EAC2531B84700E06C76 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					AD3C5EC22531B84700E06C76 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AD3C5EAC2531B84700E06C76;
+					};
+					AD3C5ECD2531B84800E06C76 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = AD3C5EAC2531B84700E06C76;
+					};
+				};
+			};
+			buildConfigurationList = AD3C5EA82531B84700E06C76 /* Build configuration list for PBXProject "NateChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD3C5EA42531B84700E06C76;
+			productRefGroup = AD3C5EAE2531B84700E06C76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD3C5EAC2531B84700E06C76 /* NateChallenge */,
+				AD3C5EC22531B84700E06C76 /* NateChallengeTests */,
+				AD3C5ECD2531B84800E06C76 /* NateChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD3C5EAB2531B84700E06C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3C5EBD2531B84700E06C76 /* LaunchScreen.storyboard in Resources */,
+				AD3C5EBA2531B84700E06C76 /* Assets.xcassets in Resources */,
+				AD3C5FA425386E6400E06C76 /* apimock.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3C5EC12531B84700E06C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3C5F7D25360B8600E06C76 /* mock.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3C5ECC2531B84800E06C76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06036B21198E43C84A382174 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NateChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CF735755F7C68A1B2D39F7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NateChallenge-NateChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A103D4878F0ED84CC67F1BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NateChallenge-NateChallengeUITests/Pods-NateChallenge-NateChallengeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NateChallenge-NateChallengeUITests/Pods-NateChallenge-NateChallengeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NateChallenge-NateChallengeUITests/Pods-NateChallenge-NateChallengeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		877EC2F3CDD5C99BECBDDB0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NateChallenge/Pods-NateChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NateChallenge/Pods-NateChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NateChallenge/Pods-NateChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CAA33177EEA51A8A6B3F70B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NateChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD3C5F222531CABF00E06C76 /* SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftLint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD3C5EA92531B84700E06C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3C5F5325330B1100E06C76 /* UIImageView+Extensions.swift in Sources */,
+				AD3C5F102531C83D00E06C76 /* PageOffsetItem.swift in Sources */,
+				AD3C5EF12531B8C900E06C76 /* MainCoordinator.swift in Sources */,
+				AD3C5F622534753800E06C76 /* ProductDetailsViewController.swift in Sources */,
+				AD3C5F412531D32800E06C76 /* UIView+Extensions.swift in Sources */,
+				AD3C5F6725349FFD00E06C76 /* ProductDetailsView.swift in Sources */,
+				AD3C5EB12531B84700E06C76 /* AppDelegate.swift in Sources */,
+				AD3C5F062531BD5E00E06C76 /* Product.swift in Sources */,
+				AD3C5F4E2533039200E06C76 /* ErrorView.swift in Sources */,
+				AD3C5EEC2531B8B000E06C76 /* Coordinator.swift in Sources */,
+				AD3C5F0B2531BFD900E06C76 /* API.swift in Sources */,
+				AD3C5F492531D5ED00E06C76 /* APIRequest.swift in Sources */,
+				AD3C5F382531D2CE00E06C76 /* ProductCell.swift in Sources */,
+				AD3C5F322531D15600E06C76 /* ProductListDataSource.swift in Sources */,
+				AD3C5F5D253468F800E06C76 /* ImageCache.swift in Sources */,
+				AD3C5EF92531B93400E06C76 /* HomeScreenViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3C5EBF2531B84700E06C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3C5EC82531B84700E06C76 /* NateChallengeTests.swift in Sources */,
+				AD3C5F9C25385FA200E06C76 /* ImageCacheTests.swift in Sources */,
+				AD3C5F782535FF5400E06C76 /* ProductTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD3C5ECA2531B84800E06C76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD3C5EC52531B84700E06C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD3C5EAC2531B84700E06C76 /* NateChallenge */;
+			targetProxy = AD3C5EC42531B84700E06C76 /* PBXContainerItemProxy */;
+		};
+		AD3C5ED02531B84800E06C76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD3C5EAC2531B84700E06C76 /* NateChallenge */;
+			targetProxy = AD3C5ECF2531B84800E06C76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD3C5EBB2531B84700E06C76 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3C5EBC2531B84700E06C76 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD3C5ED52531B84800E06C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD3C5ED62531B84800E06C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD3C5ED82531B84800E06C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB34C990C75254566674A068 /* Pods-NateChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B7KQA8289;
+				INFOPLIST_FILE = NateChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipsyotter.NateChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD3C5ED92531B84800E06C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40C7B050DD037FBD6CBBF52C /* Pods-NateChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B7KQA8289;
+				INFOPLIST_FILE = NateChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipsyotter.NateChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD3C5EDB2531B84800E06C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98CDC8ADF824457EDEF4C60 /* Pods-NateChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B7KQA8289;
+				INFOPLIST_FILE = NateChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipsyotter.NateChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NateChallenge.app/NateChallenge";
+			};
+			name = Debug;
+		};
+		AD3C5EDC2531B84800E06C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4CD4671982CA5E26BE71D8A /* Pods-NateChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B7KQA8289;
+				INFOPLIST_FILE = NateChallengeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipsyotter.NateChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NateChallenge.app/NateChallenge";
+			};
+			name = Release;
+		};
+		AD3C5EDE2531B84800E06C76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6AF608505EF09AC40E06F46 /* Pods-NateChallenge-NateChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B7KQA8289;
+				INFOPLIST_FILE = NateChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipsyotter.NateChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NateChallenge;
+			};
+			name = Debug;
+		};
+		AD3C5EDF2531B84800E06C76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF837728EE57214B69E1537F /* Pods-NateChallenge-NateChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5B7KQA8289;
+				INFOPLIST_FILE = NateChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tipsyotter.NateChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NateChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD3C5EA82531B84700E06C76 /* Build configuration list for PBXProject "NateChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3C5ED52531B84800E06C76 /* Debug */,
+				AD3C5ED62531B84800E06C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3C5ED72531B84800E06C76 /* Build configuration list for PBXNativeTarget "NateChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3C5ED82531B84800E06C76 /* Debug */,
+				AD3C5ED92531B84800E06C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3C5EDA2531B84800E06C76 /* Build configuration list for PBXNativeTarget "NateChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3C5EDB2531B84800E06C76 /* Debug */,
+				AD3C5EDC2531B84800E06C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3C5EDD2531B84800E06C76 /* Build configuration list for PBXNativeTarget "NateChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3C5EDE2531B84800E06C76 /* Debug */,
+				AD3C5EDF2531B84800E06C76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD3C5EA52531B84700E06C76 /* Project object */;
+}
