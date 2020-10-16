@@ -38,6 +38,8 @@ Requests are done via the provided RESTful API. The API is running in the provid
 
 The only used endpoint is ```/products/offset```, that allows to request a set number of products ```take```, with an offset ```skip``` useful for [pagination](#Pagination).
 
+The API Root URL used is ```http://localhost:3000```, and was defined directly in the API class.
+
 #### Pagination
 The UITableView used support pagination to avoid dealing with obese responses. The ```/products/offset``` endpoint of the API is used to request a set number of products, using the following JSON Body:
 ```json
