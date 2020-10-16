@@ -62,8 +62,8 @@
             filePath = "NateChallenge/Models/ProductListDataSource.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
             landmarkName = "requestProductList(skip:take:completion:)"
             landmarkType = "7">
          </BreakpointContent>

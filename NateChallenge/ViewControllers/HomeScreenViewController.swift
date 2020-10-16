@@ -134,7 +134,6 @@ private extension HomeScreenViewController {
             productListView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             productListView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor)
         ])
-        //view.applyFullConstraints(to: productListView, withSafeAreas: true)
     }
 }
 
@@ -166,7 +165,7 @@ extension HomeScreenViewController: UITableViewDelegate {
 
         let cell = tableView.cellForRow(at: indexPath) as? ProductCell
         if let product = cell?.getProduct() {
-            DDLogInfo("Selected cell with title: \(product.title)")
+            DDLogDebug("Selected cell with title: \(product.title)")
             coordinator?.showProductDetails(for: product)
         }
     }
@@ -228,7 +227,6 @@ private extension HomeScreenViewController {
     }
 
     @objc func tapRefreshButton() {
-
         errorView.isHidden = true
         productListView.isHidden = true
         requestNextProductBatch(skip: currentSkip, take: defaultTake) {

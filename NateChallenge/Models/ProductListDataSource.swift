@@ -20,7 +20,6 @@ final class ProductListDataSource: NSObject, UITableViewDataSource {
 extension ProductListDataSource {
 
     func loadProductBatch(skip: Int, take: Int, completion: @escaping (Bool) -> Void) {
-        DDLogInfo("loadProductBatch called")
         requestProductList(skip: skip, take: take) { success in
             completion(success)
         }
@@ -55,7 +54,6 @@ extension ProductListDataSource {
 private extension ProductListDataSource {
 
     func decodeProductList(from data: Data) {
-        DDLogInfo("saveReceivedProductsLocally called")
         do {
             let productBatch = try JSONDecoder().decode(ProductList.self, from: data)
             if productList == nil {

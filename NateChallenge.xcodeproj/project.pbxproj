@@ -11,7 +11,6 @@
 		AD3C5EB12531B84700E06C76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5EB02531B84700E06C76 /* AppDelegate.swift */; };
 		AD3C5EBA2531B84700E06C76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3C5EB92531B84700E06C76 /* Assets.xcassets */; };
 		AD3C5EBD2531B84700E06C76 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3C5EBB2531B84700E06C76 /* LaunchScreen.storyboard */; };
-		AD3C5EC82531B84700E06C76 /* NateChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5EC72531B84700E06C76 /* NateChallengeTests.swift */; };
 		AD3C5EEC2531B8B000E06C76 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5EEB2531B8B000E06C76 /* Coordinator.swift */; };
 		AD3C5EF12531B8C900E06C76 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5EF02531B8C900E06C76 /* MainCoordinator.swift */; };
 		AD3C5EF92531B93400E06C76 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD3C5EF82531B93400E06C76 /* HomeScreenViewController.swift */; };
@@ -61,7 +60,6 @@
 		AD3C5EBC2531B84700E06C76 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD3C5EBE2531B84700E06C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3C5EC32531B84700E06C76 /* NateChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NateChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD3C5EC72531B84700E06C76 /* NateChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NateChallengeTests.swift; sourceTree = "<group>"; };
 		AD3C5EC92531B84800E06C76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3C5ECE2531B84800E06C76 /* NateChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NateChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3C5EEB2531B8B000E06C76 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
@@ -185,7 +183,6 @@
 		AD3C5EC62531B84700E06C76 /* NateChallengeTests */ = {
 			isa = PBXGroup;
 			children = (
-				AD3C5EC72531B84700E06C76 /* NateChallengeTests.swift */,
 				AD3C5F772535FF5400E06C76 /* ProductTests.swift */,
 				AD3C5F9B25385FA200E06C76 /* ImageCacheTests.swift */,
 				AD3C5EC92531B84800E06C76 /* Info.plist */,
@@ -556,7 +553,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3C5EC82531B84700E06C76 /* NateChallengeTests.swift in Sources */,
 				AD3C5F9C25385FA200E06C76 /* ImageCacheTests.swift in Sources */,
 				AD3C5F782535FF5400E06C76 /* ProductTests.swift in Sources */,
 			);

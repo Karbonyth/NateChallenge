@@ -181,7 +181,7 @@ extension ProductDetailsViewController: UIPageViewControllerDataSource {
 // MARK: UIPageViewController Delegate
 extension ProductDetailsViewController: UIPageViewControllerDelegate {
 
-    // TODO: Won't work properly if there are duplicates of a ViewController in the array.
+    /// Won't work properly if there are duplicates of a ViewController in the array.
     func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
         guard completed, let currentViewController = pageViewController.viewControllers?.first,
               let index = imagesControllers.firstIndex(of: currentViewController) else {
